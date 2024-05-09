@@ -1,11 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>RevoU Mini Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
 </head>
 <body>
+    <!--Ini bagian header dan navbar-->
+    <header class="header-wrapper">
+        <div>
+            <img id="logo" src="assets/Logo website u revou mini project.png" alt="Logo">
+        </div>
+
+        <nav class="nav-bar">
+            <button><a href="#home">Home</a></button>
+            <button><a href="#our-package">Our Packages</a></button>
+            <button><a href="#call-us">Call Us</a></button>
+        </nav>
+    </header>
     
+    <!--Divider-->
+    <hr>
+    
+    <!--Ini bagian artikel-->
+    <article>
+        
+        <!--Ini bagian untuk section home-->
+        <section id="home">
+            <div class="header">
+                <h1>Your Trusted Travel Agent</h1>
+                <p>Your happiness is our happiness.</p>
+            </div>
+
+            <section class="main-content">
+
+                <!--Ini bagian banner autoslide dan user review-->
+                <div class="left-column">
+                    <div id="banner-slide">
+                        <img class="image-slide" src="https://images.pexels.com/photos/2707756/pexels-photo-2707756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <img class="image-slide" src="https://images.pexels.com/photos/5473010/pexels-photo-5473010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <img class="image-slide" src="https://images.pexels.com/photos/2426546/pexels-photo-2426546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <img class="image-slide" src="https://images.pexels.com/photos/5623946/pexels-photo-5623946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <img class="image-slide" src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <img class="image-slide" src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    </div>
+                    
+                    <div id="user-review">
+                        <p><i>"Liburan jadi menyenangkan bersama Travello."</i></p>
+                        <div id="user-profile">
+                            <img class="profile-photo" src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_1280.png">
+                            <div class="profile-detail">
+                                <p id="username"><b>Florence Hughes</b></p>
+                                <p id="user-status"><i>Ibu Rumah Tangga, 28</i></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="short-bar">
+                </div>
+            
+                <!--Ini bagian form-->
+                <div id="form-container">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    <form name="form" action="/">
+                        <label for="name">Your Name:</label>
+                        <input id="name" name="name" type="text" placeholder="First and last name">
+
+                        <label for="email">Email Address:</label>
+                        <input id="email" name="email" type="text" placeholder="example@gmail.com">
+
+                        <label for="interest">What are you interested in?</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select option</option>
+                            <option value="bali">Bali travel package</option>
+                            <option value="japan">Japan travel package</option>
+                            <option value="singapore">Singapore travel package</option>
+                            <option value="london">London travel package</option>
+                            <option value="italy">Italy travel package</option>
+                            <option value="hawaii">Hawaii travel package</option>
+                        </select>
+                        <input id="submit-btn" type="submit" value="SEND">
+                    </form>
+                </div>
+            </section>
+
+            <!--Ini bagian features-->
+            <div id="features">
+                <h3>Why Choose Us?</h3>
+                <p><i>See our travel packages features.</i></p>
+
+                <div class="feature-container">
+                    <div class="feature-list" id="feature-akomodasi">
+                        <p class="number"><b>1</b></p>
+                        <p><b>Akomodasi:</b> Menawarkan berbagai pilihan hotel (luxury, boutique, budget-friendly) atau penginapan alternatif (hostel, villa) serta pilihan tipe kamar dan fasilitas yang diinginkan.</p>
+                    </div>
+
+                    <div class="feature-list" id="feature-transportasi">
+                        <p class="number"><b>2</b></p>
+                        <p><b>Transportasi:</b> Termasuk penerbangan (pulang-pergi atau sekali jalan), transfer bandara, dan pilihan transportasi internal (tiket kereta api, sewa mobil, bus hop-on-hop-off).</p>
+                    </div>
+
+                    <div class="feature-list" id="feature-aktivitas">
+                        <p class="number"><b>3</b></p>
+                        <p><b>Aktivitas & Pengalaman:</b> Menyediakan pilihan tur, tamasya, dan aktivitas yang dikurasi berdasarkan tujuan dan minat wisatawan (petualangan, budaya, kuliner & relaksasi).</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Ini bagian untuk section Our Package-->
+        <section id="our-package">
+            <h1>Our Packages</h1>
+            <div class="package-list">
+
+                <div class="row-1">
+                    <div class="package-container" id="bali">
+                        <img class="package-profile" src="https://images.pexels.com/photos/2707756/pexels-photo-2707756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>Bali</h3>
+                            <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                        </div>
+                    </div>
+                    <div class="package-container" id="japan">
+                        <img class="package-profile" src="https://images.pexels.com/photos/5473010/pexels-photo-5473010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>Japan</h3>
+                            <p>Travel dan wisata di Jepang. Nikmati pemandangan bunga sakura yang indah.</p>
+                        </div>
+                    </div>
+                    <div class="package-container" id="singapore">
+                        <img class="package-profile" src="https://images.pexels.com/photos/2426546/pexels-photo-2426546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>Singapore</h3>
+                            <p>Travel dan wisata di Singapura. Kunjungi gedung-gedung dan destinasi wisata yang spektakuler.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-2">
+                    <div class="package-container" id="london">
+                        <img class="package-profile" src="https://images.pexels.com/photos/5623946/pexels-photo-5623946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>London</h3>
+                            <p>Travel dan wisata di London. Kunjungi bangunan-bangunan sejarah yang menarik.</p>
+                        </div>
+                    </div>
+                    <div class="package-container" id="italy">
+                        <img class="package-profile" src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>Italy</h3>
+                            <p>Travel dan wisata di Italia. Kunjungi menara Pisa dan nikmati kuliner yang lezat.</p>
+                        </div>
+                    </div>
+                    <div class="package-container" id="hawaii">
+                        <img class="package-profile" src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="package-detail">
+                            <h3>Hawaii</h3>
+                            <p>Travel dan wisata di Hawaii. Nikmati pemandangan pantai dan matahari terbenam yang indah.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--Ini bagian untuk section Call Us-->
+        <section id="call-us">
+            <h1>Call Us</h1>
+            <p>+62 0111 2222 3333</p>
+        </section>
+
+    </article>
+
+    <!--Divider-->
+    <hr>
+
+    <!--Ini bagian footer-->
+    <footer>
+        <img id="logo-2" src="assets/Logo website u revou mini project.png" alt="Logo">
+        <br>
+        <span>Terms of Service</span>
+        <span>Privacy Policy</span>
+        <p>Ⓒ 2024 Travello</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
